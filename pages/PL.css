@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.Poland__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgb(221,179,179);
+    background: linear-gradient(260deg, rgba(221,179,179,1) 0%, rgba(221,173,173,1) 23%, rgba(213,22,22,1) 82%);
+    color: bisque;
+}
+.Poland__info-h1{
+    text-align: center;
+    font-size: larger;
+}
+
+
+.Poland__info-content{
+    display: flex;
+
+    width: 80%;
+    height: 100vh;
+    padding-top: 3rem;
+}
+
+.Poland__info-content-text{
+    width: 600px;
+    height: 600px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    font-size: 22px;
+}
+p{
+    padding: 3rem;
+}
+
+.Poland__info-content-map{
+    width: 600px;
+    height: 400px;
+}
+img{
+    padding-left: 5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
